@@ -9,9 +9,5 @@ class Student(val id: String, val name: String, var grade: Int) {
     case _ => grade
   }
 
-  def printStatus(): Unit = {
-    println("ID    : " + id)
-    println("Name  : " + name)
-    println("Grade : " + grade)
-  }
+  def printStatus() = println(id + ", " + name + ", " + grade)
 }
