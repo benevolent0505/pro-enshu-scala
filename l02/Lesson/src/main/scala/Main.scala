@@ -17,5 +17,14 @@ object Main {
     proEnshu.add(student4)
 
     proEnshu.printLesson()
+
+    proEnshu.sortId()
+    proEnshu.printLesson()
+
+    proEnshu.sortName()
+    proEnshu.printLesson()
+
+    proEnshu.sortGrade()
+    proEnshu.printLesson()
   }
 }
